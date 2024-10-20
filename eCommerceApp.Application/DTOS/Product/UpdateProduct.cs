@@ -1,7 +1,6 @@
-﻿namespace eCommerceApp.Application.DTOS.Product
+﻿namespace eCommerceApp.Application.DTOS.Product;
+
+public class UpdateProduct : ProductBase
 {
-    public class UpdateProduct : ProductBase
-    {
-        public Guid Id { get; set; }
-    }
+    public Guid Id { get; set; }
 }

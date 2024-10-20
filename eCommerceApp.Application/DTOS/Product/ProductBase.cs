@@ -1,17 +1,16 @@
-﻿namespace eCommerceApp.Application.DTOS.Product
+﻿namespace eCommerceApp.Application.DTOS.Product;
+
+public class ProductBase
 {
-    public class ProductBase
-    {
-        public string? Name { get; set; }
+    public string? Name { get; set; }
 
-        public string? Description { get; set; } = string.Empty;
+    public string? Description { get; set; } = string.Empty;
 
-        public decimal Price { get; set; }
+    public decimal Price { get; set; }
 
-        public string? Image { get; set; }
+    public string? Image { get; set; }
 
-        public int Quantity { get; set; }
+    public int Quantity { get; set; }
 
-        private Guid CategoryId { get; set; }
-    }
+    private Guid CategoryId { get; set; }
 }
